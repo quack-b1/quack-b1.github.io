@@ -6,6 +6,7 @@ Oct 2024 -- Present,  Berlin, Germany
 > - 180 ECTS Program
 > - EQF 6
 
+
 ### American International School in Egypt, West Campus
 Sep 2010 -- June 2024  Cairo, Egypt
 > - International Baccalaureate Diploma
@@ -21,6 +22,7 @@ Sep 2010 -- June 2024  Cairo, Egypt
 >   - Extended Essay in Business Management
 >   - Successfully completed Theory of Knowledge (TOK) exhibition & essay components
 >   - Successfully completed 991 Creativty, Activity, Service (CAS) hours
+
 
 ### Zewail City of Science and Technology
 Aug 2022  Cairo, Egypt
