@@ -1,0 +1,22 @@
+theme: jekyll-theme-minimal
+title: Ali Abdou
+description: BSc Computer Science student at Gisma University of Applied Sciences
+
+photo_url: "/assets/images/me.png"
+work_url: https://www.gisma.com/faculty-and-team/dr-mohammad-mahdavi-academic
+github_url: https://github.com/quack-b1
+linkedin_url: https://www.linkedin.com/in/abd0u/
+url: "https://quack-b1.github.io/"
+baseurl: ""
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# plugins:
+#   - jekyll-feed
+#   - jekyll-gist
+#   - jekyll-paginate-v2
+#   - jekyll-seo-tag
+#   - jekyll-sitemap
