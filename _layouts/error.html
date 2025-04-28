@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/styles.css' }}">
+</head>
+<body>
+    <div id="main-content"> {{ content }} </div>
+    <footer> <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p> </footer>
+</body>
+</html>
