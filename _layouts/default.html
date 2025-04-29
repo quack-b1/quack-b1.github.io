@@ -22,7 +22,11 @@
     <div class="jumbotron text-center">
       <img class="particles-photo" src="{{ site.photo_url }}" alt="Ali Abdou"/>
       <h1 class="particles-title">{{ site.title }}</h1>
+      {% if page.lang == "de" %}
+      <h1 class="particles-subtitle">{{ site.description_de }}</h1>
+      {% else %}
       <h1 class="particles-subtitle">{{ site.description }}</h1>
+      {% endif %}
       <div class="nowrap">
         <a class="particles-icon" href="{{ site.url }}">
           <svg class="icon-style" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
