@@ -1,7 +1,7 @@
 ---
 layout: default
 lang: de
-permalink: /de/
+#permalink: /de/
 ---
 
 {% include sections_de/about_me.md %}
