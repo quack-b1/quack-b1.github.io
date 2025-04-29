@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' }}">
 </head>
 <body>
+
+  <header class="site-header">
+    <nav class="site-nav">
+      {% if page.lang == "de" %}
+      <a href="{{ '/' | relative_url }}">English</a>
+      {% else %}
+      <a href="{{ '/de/' | relative_url }}">Deutsch</a>
+      {% endif %}
+    </nav>
+  </header>
+
   <div id="particles-js" class="fullscreen">
     <div class="jumbotron text-center">
       <img class="particles-photo" src="{{ site.photo_url }}" alt="Ali Abdou"/>
