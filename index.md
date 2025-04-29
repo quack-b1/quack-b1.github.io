@@ -1,11 +1,11 @@
 ---
 layout: default
-lang: en
-permalink: /en/
+lang: de
+permalink: /de/
 ---
 
-{% include sections/about_me.md %}
-{% include sections/career_timeline.md %}
-{% include sections/education.md %}
-{% include sections/certifications.md %}
-{% include sections/honors.md %}
+{% include sections_de/about_me.md %}
+{% include sections_de/career_timeline.md %}
+{% include sections_de/education.md %}
+{% include sections_de/certifications.md %}
+{% include sections_de/honors.md %}
