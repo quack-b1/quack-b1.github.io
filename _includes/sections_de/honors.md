@@ -1,7 +1,3 @@
----
-title: Honors
-slug: honors
----
 ## Ehrungen
 
 - Klassenleiter-Auszeichnung

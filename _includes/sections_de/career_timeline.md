@@ -1,7 +1,3 @@
----
-title: Work Experience
-slug: experience
----
 ## Berufliche Erfahrung
 
 ### IT-Infrastruktur-Praktikant bei Orascom Development

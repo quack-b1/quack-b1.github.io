@@ -1,7 +1,3 @@
----
-title: Education
-slug: education
----
 ## Ausbildung
 
 ### Gisma Fachhochschule
