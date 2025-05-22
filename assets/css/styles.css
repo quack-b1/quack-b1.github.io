@@ -113,6 +113,8 @@ footer {
   width: 50px;
   height: 50px;
   fill: #ffffff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
   transition: box-shadow 0.3s ease, fill 0.3s ease;
 }
 
