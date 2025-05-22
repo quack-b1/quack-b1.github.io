@@ -1,6 +1,6 @@
 % Originally: LuxSleek-CV 1.1 LaTeX template
-% Author: Andreï V. Kostyrka, University of Luxembourg
-% Modified by Ali Abdou for content, design, and visuals
+% Original Author: Andreï V. Kostyrka, University of Luxembourg
+% Moderately Modified by Ali Abdou for content, design, and visuals
 
 \documentclass[12pt, a4paper]{article} 
 
@@ -14,7 +14,8 @@
 \usepackage{marvosym}        
 \usepackage{enumitem}      
 \usepackage{tikz}
-\setlist{parsep = 0pt, topsep = 0pt, partopsep = 1pt, itemsep = 1pt, leftmargin = 6mm}
+%\setlist{parsep = 0pt, topsep = 0pt, partopsep = 1pt, itemsep = 1pt, leftmargin = 3em}
+
 
 \usepackage[default,oldstyle,scale=0.95]{opensans}
 
@@ -26,7 +27,7 @@
 \newcommand{\dates}[1]{\hfill\textsc{\footnotesize\color{cvblue}#1}} 
 \newcommand{\location}[1]{\hfill\textsc{\footnotesize{#1}}}
 \newcommand{\jobtitle}[1]{\textbf{#1}} 
-\newcommand{\is}{\par\vspace{.8ex}\vskip.5ex plus .4ex} 
+\newcommand{\is}{\vspace{1.6ex}\vskip.5ex plus .4ex} 
 \newcommand{\smaller}[1]{{\small$\bullet$\ #1}}
 \newcommand{\headleft}[1]{\vspace*{3ex}\textsc{\textbf{#1}}\par%
     \vspace*{-1.5ex}\hrulefill\par\vspace*{0.7ex}}
@@ -71,7 +72,7 @@ BSc Computer Science student at Gisma University of Applied Sciences in Berlin, 
 
 \headleft{Contact Details}
 \small
-\begin{tabular}{l l}
+\begin{tabular}{@{}l@{\hspace{1em}}l@{}}
     \faLink & www.aliabdou.de \\[0.5ex]
     \Letter & me@aliabdou.de \\[0.5ex]
     \faMobile & +49\, 152\, 25379483 \\[0.5ex]
@@ -81,17 +82,19 @@ BSc Computer Science student at Gisma University of Applied Sciences in Berlin, 
 \normalsize
 
 \headleft{Languages}
-\begin{tabular}{l l}
+\begin{tabular}{@{}l@{\hspace{1em}}l@{}}
     \textbf{Arabic} & Native \\[0.5ex]
     \textbf{English} & C2 \\[0.5ex]
-    \textbf{German} & A1 \\[0.5ex]
+    \textbf{German} & A2 \\[0.5ex]
 \end{tabular}
 
 \headleft{Certifications}
-\smaller{On-Premise Sales Simulation (Red Bull, 2023)}\\
-\smaller{Advanced Python (Nile University, 2019)}\\
-\smaller{Web Design (HTML, CSS, JS, 2017)}\\
-\smaller{Intro to Python (2015)}
+\begin{itemize}[leftmargin=0.7em, label={$\bullet$}, topsep=0pt, partopsep=0pt, parsep=0pt, itemsep=4pt]
+        \item {RedBull On-Premise Sales Simulation (Forage, May 2023)}
+        \item {Advanced Python Programming (Nile University, Aug 2019)}
+        \item {Introduction to Web Design (HTML, CSS, JS) (Nile University, Aug 2017)}
+        \item {Introduction to Python Programming (Nile University, Aug 2015)}
+\end{itemize}
 
 \end{minipage}%
 \kern0.09\textwidth\relax
@@ -107,14 +110,14 @@ BSc Computer Science student at Gisma University of Applied Sciences in Berlin, 
 
 \jobtitle{IT Infrastructure Intern}  \location{Cairo, Egypt} \\
 \textsc{Orascom Development}  \dates{Aug 2023} \\
-\smaller{Installed wireless access points and Cisco IP phones} \\
-\smaller{Learned IPSec tunnels, cybersecurity, and forensics} 
+\smaller{Installed wireless access points and VoIP lines in OHD’s new office} \\
+\smaller{Maintained wireless access points and VoIP lines in OHD’s main office} \\
+\smaller{Troubleshooted Microsoft Azure policy conflicts \& set up new-hire devices} 
 
 \is
 \jobtitle{Sales \& Marketing Intern}  \location{Cairo, Egypt} \\
 \textsc{Rizme}  \dates{Nov 2022--Mar 2023} \\
-\smaller{Tested "Closeara" app, pitched to clients like Toot \& G.Ride} \\
-\smaller{Conducted competitor research, brainstormed UX features} 
+\small{Conducted competitor analysis and reached out to clients during the development of multiple projects. Testing brand new “Closeara” property management app on iOS devices. Brainstormed features for clients such as the youth startup “Toot” and the newly-launched "G.Ride" by MATGR.}
 
 \is
 \jobtitle{Student Ambassador}  \location{Remote} \\
@@ -125,7 +128,7 @@ BSc Computer Science student at Gisma University of Applied Sciences in Berlin, 
 
 \jobtitle{Gisma University of Applied Sciences}  \location{Berlin, Germany}\\
 \normalsize{Computer Science, Bachelor of Science} \dates{Oct 2024--Present}\\
-\small{180 ECTS programme, EQF Lvl 6} \\
+\small{180 ECTS programme, EQF Lvl 6} 
 
 \is
 \jobtitle{American International School in Egypt -- West }  \location{Cairo, Egypt}\\
@@ -147,7 +150,7 @@ BSc Computer Science student at Gisma University of Applied Sciences in Berlin, 
 \small{Core:
     \begin{itemize}[leftmargin=3em, label={$\bullet$}, topsep=0pt, partopsep=0pt, parsep=0pt, itemsep=0pt]
         \item {Theory of Knowledge}
-        \item {Extended Essay in Business Management}\\
+        \item {Extended Essay in Business Management}
     \end{itemize}
 } 
 
@@ -163,7 +166,7 @@ BSc Computer Science student at Gisma University of Applied Sciences in Berlin, 
         \item {Robotics}
         \item {Renewable Energy Engineering}
     \end{itemize}
-} 
+}
 
 \end{minipage}
 \end{document}
