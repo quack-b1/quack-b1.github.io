@@ -109,6 +109,18 @@ footer {
   stroke: #ffeb3b;
 }
 
+.icon-fill {
+  width: 50px;
+  height: 50px;
+  fill: #ffffff;
+  transition: box-shadow 0.3s ease, fill 0.3s ease;
+}
+
+.icon-fill:hover {
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.7);
+  fill: #ffeb3b;
+}
+
 .emoji {
   display: inline-block;
   transition: transform 0.3s ease, filter 0.3s ease;
