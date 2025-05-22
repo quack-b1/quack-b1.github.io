@@ -1,6 +1,11 @@
 ---
 layout: default
+<<<<<<< HEAD
 title: Portfolio
+=======
+lang: de
+permalink: /
+>>>>>>> parent of f64f6cb (Update Language Support)
 ---
 
 <nav>
