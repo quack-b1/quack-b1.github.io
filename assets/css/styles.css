@@ -5,6 +5,17 @@
   font-weight: bold;
 }
 
+.language-switcher {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.language-switcher a {
+  font-size: 0.9rem;
+  text-decoration: underline;
+  color: #007acc;
+}
 
 body {
   max-width: 60%;
