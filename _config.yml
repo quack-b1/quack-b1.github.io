@@ -10,12 +10,3 @@ linkedin_url: https://www.linkedin.com/in/abd0u/
 url: "https://quack-b1.github.io/"
 baseurl: ""
 
-exclude:
-  - node_modules
-  - vendor
-  -
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
