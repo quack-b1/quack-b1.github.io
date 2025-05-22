@@ -14,3 +14,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+
+collections:
+  sections:
+    output: true

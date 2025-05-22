@@ -1,3 +1,7 @@
+---
+title: About Me
+slug: about
+---
 ## Über mich
 Ich bin Informatikstudent im ersten Jahr an der Gisma Fachhochschule in Berlin, Deutschland. Ich habe großes Interesse an Technologie, Führungsqualitäten und das Erschaffen realer Auswirkungen durch Innovation
 
