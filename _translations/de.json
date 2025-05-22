@@ -1,10 +1,9 @@
 {
-  "nav_about": "Über mich",
-  "nav_experience": "Berufliche Erfahrung",
-  "nav_education": "Ausbildung",
-  "nav_certifications": "Zertifizierungen",
-  "nav_awards": "Ehrungen",
-  "nav_projects": "Projekte",
-  "download_cv": "Lebenslauf herunterladen",
-  "about_text": "Ich bin Ali Abdou, Informatikstudent aus Berlin..."
+  "about_me": "Über mich",
+  "experience": "Erfahrung",
+  "education": "Bildung",
+  "certifications": "Zertifikate",
+  "honors": "Ehrungen",
+  "projects": "Projekte",
+  "download_cv": "Lebenslauf herunterladen"
 }

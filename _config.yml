@@ -1,6 +1,11 @@
 title: Ali Abdou Portfolio
 description: Persönliches Portfolio von Ali Abdou
-theme: minima
+theme: jekyll-theme-minimal
+#locale: de
+languages:
+  - de
+  - en
+
 exclude:
   - node_modules
   - vendor
