@@ -10,3 +10,7 @@ linkedin_url: https://www.linkedin.com/in/abd0u/
 url: "https://quack-b1.github.io/"
 baseurl: ""
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
