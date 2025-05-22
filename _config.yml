@@ -1,6 +1,5 @@
-#theme: jekyll-theme-minimal
-theme: null
-title: Ali Abdou | Portfolio
+theme: jekyll-theme-minimal
+title: Ali Abdou
 description: BSc Computer Science student<br>Gisma University of Applied Sciences
 description_de: BSc Informatikstudent<br>an der Gisma Fachhochschule
 
@@ -10,11 +9,6 @@ github_url: https://github.com/quack-b1
 linkedin_url: https://www.linkedin.com/in/abd0u/
 url: "https://quack-b1.github.io/"
 baseurl: ""
-
-collections:
-  sections:
-    output: false
-
 
 exclude:
   - Gemfile
