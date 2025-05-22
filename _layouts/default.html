@@ -10,11 +10,13 @@
 
   <header class="site-header">
     <nav class="site-nav">
-      {% if page.lang == "en" %}
-      <a href="{{ '/' | relative_url }}">Deutsch</a>
-      {% else %}
-      <a href="{{ '/en/' | relative_url }}">English</a>
-      {% endif %}
+      <button class="lang-btn" data-lang="de"><img src="../_includes/flags/de.svg" alt="Deutsch"></button>
+      <button class="lang-btn" data-lang="en"><img src="../_includes/flags/gb.svg" alt="English"></button>
+<!--      {% if page.lang == "en" %}-->
+<!--      <a href="{{ '/' | relative_url }}">Deutsch</a>-->
+<!--      {% else %}-->
+<!--      <a href="{{ '/en/' | relative_url }}">English</a>-->
+<!--      {% endif %}-->
     </nav>
   </header>
 
