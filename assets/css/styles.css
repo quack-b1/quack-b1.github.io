@@ -15,6 +15,7 @@
 .lang-link img {
   display: block;
   border-radius: 3px;
+  border-color: white;
   transition: transform 0.2s ease;
 }
 
