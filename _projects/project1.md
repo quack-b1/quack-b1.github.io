@@ -1,8 +1,9 @@
 ---
-title: "Project 1"
+title: "ManageUN"
 thumbnail: "/assets/images/me.png"
 date: 2023-10-01
 layout: projects
+description: ManageUN is a Model United Nations (MUN) desktop-based program that makes MUN conference organizing easier for organizers and attendees. 
 ---
 
-This is a brief description of Project 1. You can include more details about the project here.
+Originally made for my IB Computer Science HL internal assessment submission, ManageUN 
