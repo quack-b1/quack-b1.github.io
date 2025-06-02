@@ -1,8 +1,3 @@
----
-title: "Honors DE"
-id: "honors"
----
-
 ## Ehrungen
 
 - Klassenleiter-Auszeichnung

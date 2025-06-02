@@ -1,8 +1,3 @@
----
-title: "Berufliche Erfahrung"
-id: "work_experience"
----
-
 ## Berufliche Erfahrung
 
 ### IT-Infrastruktur-Praktikant bei Orascom Development
