@@ -1,3 +1,8 @@
+---
+title: "Career Timeline"
+id: "career_timeline"
+---
+
 ## Career Timeline
 
 ### IT Infrastructure Intern at Orascom Development
