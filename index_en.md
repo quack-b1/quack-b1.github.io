@@ -9,3 +9,4 @@ permalink: /en/
 {% include sections/education.md %}
 {% include sections/certifications.md %}
 {% include sections/honors.md %}
+{% include project-carousel.html %}

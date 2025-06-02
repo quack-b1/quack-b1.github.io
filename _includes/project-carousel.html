@@ -1,0 +1,82 @@
+<!-- Project Carousel Include -->
+
+<style>
+    /* Carousel container */
+    .project-carousel {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 1rem;
+        gap: 1rem;
+        scrollbar-width: thin;
+    }
+    .project-carousel::-webkit-scrollbar {
+        height: 8px;
+    }
+    .project-carousel::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 4px;
+    }
+    /* Each carousel item */
+    .project-item {
+        flex: 0 0 auto;
+        width: 220px;
+        scroll-snap-align: start;
+        background: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
+        cursor: pointer;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        text-align: center;
+        color: #333;
+        text-decoration: none;
+    }
+    .project-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+    .project-thumb {
+        width: 100%;
+        height: 140px;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .project-title {
+        padding: 0.75rem 1rem;
+        font-weight: 600;
+        font-size: 1.1rem;
+    }
+</style>
+
+<div aria-label="Projects Carousel" class="project-carousel">
+    {% assign projects = site.projects | sort: 'date' | reverse %}
+    {% for project in projects %}
+    <a href="{{ project.url | relative_url }}" class="project-item" aria-label="View project {{ project.title }}">
+        {% if project.thumbnail %}
+        <img src="{{ project.thumbnail | relative_url }}" alt="Thumbnail for {{ project.title }}" class="project-thumb" loading="lazy" />
+        {% else %}
+        <div class="project-thumb" style="background:#ddd; display: flex; align-items:center; justify-content:center; color:#555; font-size:1rem;">
+            No Image
+        </div>
+        {% endif %}
+        <div class="project-title">{{ project.title }}</div>
+    </a>
+    {% endfor %}
+</div>
+
+<script>
+    // Optional: smooth scrolling on wheel
+    const carousel = document.querySelector('.project-carousel');
+    if(carousel) {
+        carousel.addEventListener('wheel', (evt) => {
+            evt.preventDefault();
+            carousel.scrollBy({
+                left: evt.deltaY < 0 ? -100 : 100,
+                behavior: 'smooth'
+            });
+        });
+    }
+</script>
+

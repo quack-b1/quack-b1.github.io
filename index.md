@@ -9,3 +9,4 @@ permalink: /
 {% include sections_de/education.md %}
 {% include sections_de/certifications.md %}
 {% include sections_de/honors.md %}
+{% include project-carousel.html %}
