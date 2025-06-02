@@ -1,3 +1,3 @@
-## Projekte
+## Projects
 
 {% include project-carousel.html %}
