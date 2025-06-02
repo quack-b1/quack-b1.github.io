@@ -19,18 +19,6 @@
             <img src="{{ '/assets/flags/gb.svg' | relative_url }}" alt="English" width="30"/>
           </a>
       </div>
-
-      <div class="nav-links" style="display: flex; align-items: center;">
-        {% assign current_lang = page.url | split: '/' | last %}
-        {% for section in site.data.sections %}
-          {% if current_lang == "en" %}
-            <a href="#{{ section.id }}" class="nav-link">{{ section.title_en }}</a>
-          {% else %}
-            <a href="#{{ section.id }}" class="nav-link">{{ section.title_de }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-
     </nav>
   </header>
 
@@ -102,18 +90,5 @@
 
   <div id="main-content"> {{ content }} </div>
   <footer> <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p> </footer>
-
-  <script>
-    document.querySelectorAll('.nav-link').forEach(link => {
-      link.addEventListener('click', function(e) {
-        e.preventDefault();
-        const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-        if (targetElement) {
-          targetElement.scrollIntoView({ behavior: 'smooth' });
-        }
-      });
-    });
-  </script>
 </body>
 </html>

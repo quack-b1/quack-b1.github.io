@@ -1,7 +1,3 @@
----
-id: "education"
----
-
 ## Ausbildung
 
 ### Gisma Fachhochschule
