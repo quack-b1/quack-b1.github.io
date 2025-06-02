@@ -7,28 +7,30 @@
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' }}">
 </head>
 <body>
-<header class="site-header">
-    <nav class="site-nav" style="display: flex; align-items: center;">
-        <a href="#" onclick="event.preventDefault(); history.back();" class="lang-link" aria-label="Deutsch">
-            <h6 style="font-weight: bold; margin-right: 10px;">← Back / Zurück</h6>
-        </a>
-    </nav>
-</header>
+    <header class="site-header">
+        <div style="height: 20px;"></div> <!-- Spacer -->
+        <nav class="site-nav" style="display: flex; align-items: center;">
+            <a href="#" onclick="event.preventDefault(); history.back();" class="lang-link" aria-label="Deutsch">
+                <h6 style="font-weight: bold; margin-right: 10px;">← Back / Zurück</h6>
+            </a>
+        </nav>
+    </header>
 
-<div id="particles-js" class="fullscreen">
-    <div class="jumbotron text-center">
-        <!-- Display the project thumbnail -->
-        <img class="project-thumbnail" src="{{ page.thumbnail }}" alt="{{ page.title }} Thumbnail" style="max-width: 100%; height: auto;"/>
+    <div id="particles-js" class="fullscreen">
+        <div class="jumbotron text-center">
+            <!-- Display the project thumbnail -->
+            <img class="project-thumbnail" src="{{ page.thumbnail }}" alt="{{ page.title }} Thumbnail" style="max-width: 100%; height: auto;"/>
 
-        <!-- Display the project title -->
-        <h1 class="particles-title">{{ page.title }}</h1>
+            <!-- Display the project title -->
+            <h1 class="particles-title">{{ page.title }}</h1>
 
-        <!-- Display the project description -->
-        <h1 class="particles-subtitle">{{ page.description }}</h1>
+            <!-- Display the project description -->
+            <h1 class="particles-subtitle">{{ page.description }}</h1>
+        </div>
     </div>
-</div>
 
-<div id="main-content"> {{ content }} </div>
-<footer> <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p> </footer>
+    <div id="main-content"> {{ content }} </div>
+
+    <footer> <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p> </footer>
 </body>
 </html>
