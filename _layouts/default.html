@@ -21,9 +21,13 @@
       </div>
 
       <div class="nav-links" style="display: flex; align-items: center;">
-        <a href="#aboutme" class="nav-link">About</a>
-        <a href="#workexp" class="nav-link">Experience</a>
-        <a href="#edu" class="nav-link">Education</a>
+        {% assign current_lang = page.url | split: '/' | last %}
+        {% for section in site.data.sections %}
+        {% if current_lang == "en" %}
+        <a href="#{{ section.id }}" class="nav-link">{{ section.title_en }}</a>
+        {% else %}
+        <a href="#{{ section.id }}" class="nav-link">{{ section.title_de }}</a>
+        {% endif %}
         {% endfor %}
       </div>
 
