@@ -90,6 +90,13 @@ footer {
   font-size: 1em;
 }
 
+.project-thumbnail {
+  width: 25%;
+  border-radius: 7%;
+  margin: auto;
+  margin-bottom: 0.1em;
+}
+
 #particles-js {
   text-align: center;
 }
