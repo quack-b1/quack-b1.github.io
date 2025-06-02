@@ -19,6 +19,11 @@
             <img src="{{ '/assets/flags/gb.svg' | relative_url }}" alt="English" width="30"/>
           </a>
       </div>
+      <a href="{{ '/assets/cv/cv.pdf' | relative_url }}" class="lang-link" aria-label="CV / Lebenslauf">
+        {% if current_lang == "en" %}Download CV
+       {% else %}
+        Lebenslauf herunterladen
+      {% endif %}</a>
     </nav>
   </header>
 
