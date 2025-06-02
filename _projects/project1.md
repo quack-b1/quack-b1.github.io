@@ -1,6 +1,6 @@
 ---
 title: "ManageUN"
-thumbnail: "/assets/images/me.png"
+thumbnail: "/assets/images/project1.png"
 date: 2023-10-01
 layout: projects
 description: ManageUN is a Model United Nations (MUN) desktop-based program that makes MUN conference organizing easier for organizers and attendees. 
