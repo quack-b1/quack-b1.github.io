@@ -1,3 +1,8 @@
+---
+title: "About Me DE"
+id: "aboutme"
+---
+
 ## Über mich
 Ich bin Informatikstudent im ersten Jahr an der Gisma Fachhochschule in Berlin, Deutschland. Ich habe großes Interesse an Technologie, Führungsqualitäten und das Erschaffen realer Auswirkungen durch Innovation
 

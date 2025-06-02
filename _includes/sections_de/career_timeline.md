@@ -1,3 +1,8 @@
+---
+title: "Work Experience DE"
+id: "workexp"
+---
+
 ## Berufliche Erfahrung
 
 ### IT-Infrastruktur-Praktikant bei Orascom Development

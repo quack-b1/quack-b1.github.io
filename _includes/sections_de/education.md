@@ -1,3 +1,8 @@
+---
+title: "Education DE"
+id: "edu"
+---
+
 ## Ausbildung
 
 ### Gisma Fachhochschule
