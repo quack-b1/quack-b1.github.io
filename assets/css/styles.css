@@ -5,10 +5,22 @@
   font-weight: bold;
 }
 
-.site-nav button {
-  background-color: transparent
+.lang-link {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 5px;
+  cursor: pointer;
 }
 
+.lang-link img {
+  display: block;
+  border-radius: 3px;
+  transition: transform 0.2s ease;
+}
+
+.lang-link:hover img, .lang-link:focus img {
+  transform: scale(1.1);
+}
 
 body {
   max-width: 60%;
