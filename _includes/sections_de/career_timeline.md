@@ -1,6 +1,6 @@
 ---
-title: "Work Experience DE"
-id: "workexp"
+title: "Berufliche Erfahrung"
+id: "work_experience"
 ---
 
 ## Berufliche Erfahrung

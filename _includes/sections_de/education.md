@@ -1,6 +1,6 @@
 ---
-title: "Education DE"
-id: "edu"
+title: "Ausbildung"
+id: "education"
 ---
 
 ## Ausbildung

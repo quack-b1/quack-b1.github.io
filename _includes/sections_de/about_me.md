@@ -1,6 +1,6 @@
 ---
-title: "About Me DE"
-id: "aboutme"
+title: "Über mich"
+id: "about_me"
 ---
 
 ## Über mich
