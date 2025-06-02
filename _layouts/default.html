@@ -8,13 +8,18 @@
 </head>
 <body>
   <header class="site-header">
-    <nav class="site-nav">
-      <h4 style="font-weight: bold;">View this site in:</h4><a href="{{ '/' | relative_url }}"><button class="lang-btn" data-lang="de"><img src="../assets/flags/de.svg" alt="Deutsch" width="24" height="16"></button></a><a href="{{ '/en/' | relative_url }}"><button class="lang-btn" data-lang="en"><img src="../assets/flags/gb.svg" alt="English" width="24" height="16"></button></a>
-<!--      {% if page.lang == "en" %}-->
-<!--      <a href="{{ '/' | relative_url }}">Deutsch</a>-->
-<!--      {% else %}-->
-<!--      <a href="{{ '/en/' | relative_url }}">English</a>-->
-<!--      {% endif %}-->
+    <nav class="site-nav" style="display: flex; align-items: center;">
+      <h5 style="font-weight: bold; margin-right: 10px;">View this site in:</h5>
+      <a href="{{ '/' | relative_url }}">
+        <button class="lang-btn" data-lang="de">
+          <img src="../assets/flags/de.svg" alt="Deutsch" width="24" height="16">
+        </button>
+      </a>
+      <a href="{{ '/en/' | relative_url }}">
+        <button class="lang-btn" data-lang="en">
+          <img src="../assets/flags/gb.svg" alt="English" width="24" height="16">
+        </button>
+      </a>
     </nav>
   </header>
 
