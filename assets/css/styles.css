@@ -5,6 +5,19 @@
   font-weight: bold;
 }
 
+.nav-links {
+  margin-left: auto; /* Push the nav links to the right */
+}
+.nav-link {
+  margin-left: 15px; /* Space between links */
+  text-decoration: none;
+  font-weight: 600;
+}
+.nav-link:hover {
+  text-decoration: underline; /* Add hover effect */
+}
+
+
 .lang-link {
   display: inline-block;
   text-decoration: none;

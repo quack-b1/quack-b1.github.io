@@ -10,13 +10,22 @@
   <header class="site-header">
     <div style="height: 20px;"></div> <!-- Spacer -->
     <nav class="site-nav" style="display: flex; align-items: center;">
-      <h6 style="font-weight: bold; margin-right: 10px;">View this site in:</h6>
-      <a href="{{ '/' | relative_url }}" class="lang-link" aria-label="Deutsch">
-        <img src="{{ '/assets/flags/de.svg' | relative_url }}" alt="Deutsch" width="30"/>
-      </a>
-      <a href="{{ '/en/' | relative_url }}" class="lang-link" aria-label="English">
-        <img src="{{ '/assets/flags/gb.svg' | relative_url }}" alt="English" width="30"/>
-      </a>
+      <div>
+          <h6 style="font-weight: bold; margin-right: 10px;">View this site in:</h6>
+          <a href="{{ '/' | relative_url }}" class="lang-link" aria-label="Deutsch">
+            <img src="{{ '/assets/flags/de.svg' | relative_url }}" alt="Deutsch" width="30"/>
+          </a>
+          <a href="{{ '/en/' | relative_url }}" class="lang-link" aria-label="English">
+            <img src="{{ '/assets/flags/gb.svg' | relative_url }}" alt="English" width="30"/>
+          </a>
+      </div>
+
+      <div class="nav-links" style="display: flex; align-items: center;">
+        {% for section in site.sections %}
+        <a href="#{{ section.id }}" class="nav-link">{{ section.title }}</a>
+        {% endfor %}
+      </div>
+
     </nav>
   </header>
 
