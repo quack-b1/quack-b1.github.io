@@ -5,6 +5,10 @@
   font-weight: bold;
 }
 
+.site-nav button {
+  background-color: transparent
+}
+
 
 body {
   max-width: 60%;
