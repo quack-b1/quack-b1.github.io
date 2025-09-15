@@ -1,14 +1,19 @@
 ## Ausbildung
 
+### Lancaster Universität
+Oct 2025 -- Gegenwart,  Leipzig, Deutschland
+> - Informatik (Englisch), Bachelor of Science (Hons)
+> - 360 CATS (180 ECTS)
+
 ### Gisma Fachhochschule
-Oct 2024 -- Gegenwart, Berlin, Deutschland
+Oct 2024 -- Juni 2025, Berlin, Deutschland
 > - Informatik (Englisch), Bachelor of Science
-> - 180 ECTS Programm
-> - EQF 6
+> - Note: 1,5 (Sehr Gut)
+> - 45 ECTS abgeschlossen
 
 
 ### American International School in Egypt, West Campus
-Sep 2010 -- Juni, 2024 Kairo, Ägypten
+Sep 2010 -- Juni 2024,  Kairo, Ägypten
 > - International Baccalaureate Diploma
 > - Leistungskurse:
 >   - Informatik

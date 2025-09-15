@@ -1,10 +1,15 @@
 ## Education
 
+### Lancaster University
+Oct 2025 -- Present,  Leipzig, Deutschland
+> - Informatik (Englisch), Bachelor of Science (Hons)
+> - 360 CATS (180 ECTS)
+
 ### Gisma University of Applied Sciences
-Oct 2024 -- Present,  Berlin, Germany
-> - Computer Science, Bachelor's of Science
-> - 180 ECTS Program
-> - EQF 6
+Oct 2024 -- June 2025,  Berlin, Germany
+> - Computer Science, Bachelors of Science
+> - Grade: 1,5 (90.7% Highest Honours)
+> - 45 ECTS completed
 
 
 ### American International School in Egypt, West Campus
