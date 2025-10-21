@@ -3,7 +3,6 @@
 ### Lancaster University
 Oct 2025 -- Present,  Leipzig, Deutschland
 > - Computer Science, Bachelor of Science (Hons)
-> - 360 CATS (180 ECTS)
 
 ### Gisma University of Applied Sciences
 Oct 2024 -- June 2025,  Berlin, Germany

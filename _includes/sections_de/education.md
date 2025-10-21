@@ -3,7 +3,6 @@
 ### Lancaster Universität
 Oct 2025 -- Gegenwart,  Leipzig, Deutschland
 > - Informatik (Englisch), Bachelor of Science (Hons)
-> - 360 CATS (180 ECTS)
 
 ### Gisma Fachhochschule
 Oct 2024 -- Juni 2025, Berlin, Deutschland
