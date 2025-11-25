@@ -1,0 +1,168 @@
+% Originally: LuxSleek-CV 1.1 LaTeX template
+% Original Author: Andreï V. Kostyrka, University of Luxembourg
+% Moderately Modified by Ali Abdou for content, design, and visuals
+
+\documentclass[12pt, a4paper]{article} 
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}  
+\usepackage[british]{babel}  
+\usepackage[left = 0mm, right = 0mm, top = 0mm, bottom = 0mm]{geometry}
+%\usepackage[stretch = 25, shrink = 25, tracking=true, letterspace=30]{microtype}  
+\usepackage{graphicx}        
+\usepackage{xcolor}          
+\usepackage{marvosym}        
+\usepackage{enumitem}      
+\usepackage{tikz}
+\usepackage[none]{hyphenat}\sloppy
+%\setlist{parsep = 0pt, topsep = 0pt, partopsep = 1pt, itemsep = 1pt, leftmargin = 3em}
+
+
+\usepackage[default,oldstyle,scale=0.95]{opensans}
+
+\usepackage{fontawesome5}
+
+\definecolor{cvblue}{HTML}{164194}
+
+%%%%%%% COMMAND DEFINITIONS %%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\dates}[1]{\hfill\textsc{\footnotesize\color{cvblue}#1}} 
+\newcommand{\location}[1]{\hfill\textsc{\footnotesize{#1}}}
+\newcommand{\jobtitle}[1]{\textbf{#1}} 
+\newcommand{\is}{\vspace{1.6ex}\vskip.5ex plus .4ex} 
+\newcommand{\smaller}[1]{{\small$\bullet$\ #1}}
+\newcommand{\headleft}[1]{\vspace*{3ex}\textsc{\textbf{#1}}\par%
+    \vspace*{-1.5ex}\hrulefill\par\vspace*{0.7ex}}
+\newcommand{\headright}[1]{\vspace*{2.5ex}\textsc{\Large\color{cvblue}#1}\par%
+     \vspace*{-2ex}{\color{cvblue}\hrulefill}\par}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[colorlinks = true, urlcolor = white, linkcolor = white]{hyperref}
+
+\begin{document}
+
+\setlength{\topskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\fboxsep}{0pt}
+\pagestyle{empty}
+\raggedbottom
+
+\begin{minipage}[t]{0.33\textwidth} 
+\colorbox{cvblue}{\begin{minipage}[t][6mm][t]{\textwidth}\null\hfill\null\end{minipage}}
+
+\vspace{-.2ex}
+\colorbox{cvblue!85}{\color{white}  
+\kern0.09\textwidth\relax
+\begin{minipage}[t][293mm][t]{0.82\textwidth}
+\raggedright
+\vspace*{2.5ex}
+
+\null\hfill\begin{tikzpicture}
+    \clip (0,0) circle(2.1cm);
+    \node at (0,0){\includegraphics[width=4.8cm,height=4.8cm]{../images/me.png}};
+\end{tikzpicture}\hfill\null
+
+\vspace*{1.7ex}
+
+\centering{\Large\textbf{\textsc{Ali Abdou}}}\par\raggedright \normalsize 
+
+\vspace*{0.5ex} 
+
+\headleft{Über Mich}
+BSc (Hons) Informatikstudent an der Lancaster Universität, Leipzig. Begeistert sich für Technologie, Führung und Innovation. 
+
+\headleft{Kontaktdaten}
+\small
+\begin{tabular}{@{}l@{\hspace{1em}}l@{}}
+    \faLink & \href{https://www.aliabdou.de}{www.aliabdou.de} \\[0.5ex]
+    \Letter & \href{mailto:me@aliabdou.de}{me@aliabdou.de} \\[0.5ex]
+    \faMobile & +49\, 152\, 25379483 \\[0.5ex]
+    \faLinkedin & \href{https://linkedin.com/in/aliabdouu}{in/aliabdouu}
+\end{tabular}
+
+\normalsize
+
+\headleft{Sprachen}
+\begin{tabular}{@{}l@{\hspace{1em}}l@{}}
+    \textbf{Arabisch} & Fließend \\[0.5ex]
+    \textbf{Englisch} & Fließend \\[0.5ex]
+    \textbf{Deutsch} & A2-B1 \\[0.5ex]
+\end{tabular}
+
+\headleft{Zertifizierungen}
+\begin{itemize}[leftmargin=0.7em, label={$\bullet$}, topsep=0pt, partopsep=0pt, parsep=0pt, itemsep=4pt]
+       \item {Introduction to Cybersecurity (Harvard CS50, September 2025)}
+        \item {RedBull On-Premise Sales Simulation (Forage, May 2023)}
+        \item {Advanced Python Programming (Nile University, Aug 2019)}
+        \item {Introduction to Web Design (HTML, CSS, JS) (Nile University, Aug 2017)}
+        \item {Introduction to Python Programming (Nile University, Aug 2015)}
+\end{itemize}
+
+\end{minipage}%
+\kern0.09\textwidth\relax
+}
+\end{minipage}%
+\hskip2.5em
+\begin{minipage}[t]{0.56\textwidth}
+\setlength{\parskip}{0.8ex}
+
+\vspace{2ex}
+
+\headright{Berufliche Erfahrung}
+
+\jobtitle{IT-Infrastruktur-Praktikant}  \location{Kairo, Ägypten} \\
+\textsc{Orascom Development}  \dates{Aug 2023} \\
+\smaller{Installation von WLAN-Zugangspunkten und VoIP-Leitungen im neuen Büro von OHD} \\
+\smaller{Wartung der WLAN-Zugangspunkte und VoIP-Leitungen im Hauptbüro von OHD} \\
+\smaller{Behebung von Konflikten mit Microsoft Azure-Richtlinien und Einrichtung von Geräten für neue Mitarbeiter} 
+
+\is
+\jobtitle{Praktikant für Vertrieb und Marketing}  \location{Kairo, Ägypten} \\
+\textsc{Rizme}  \dates{Nov 2022--Mar 2023} \\
+\small{Durchführung von Wettbewerbsanalysen und Kontaktaufnahme mit Kunden während der Entwicklung mehrerer Projekte. Testen der brandneuen Immobilienverwaltungs-App „Closeara” auf iOS-Geräten. Brainstorming zu Funktionen für Kunden wie das Jugend-Startup „Toot” und das neu eingeführte „G.Ride” von MATGR.}
+
+\is
+\jobtitle{Studentenbotschafter}  \location{Remote} \\
+\textsc{Lapse}  \dates{Jul--Sep 2022} \\
+\small{Vertretung und Test einer neuen App namens Journal, die nur auf Einladung zugänglich ist. Journal ist eine Art Einwegkamera, die entwickelt wurde, um Menschen davon abzuhalten, nach Likes und Kommentaren zu streben, und sie stattdessen dazu anzuregen, den Moment zu genießen und Filter und Bearbeitungen zu vergessen.}
+
+\headright{Bildung}
+
+\jobtitle{Lancaster Universität}  \location{Leipzig, Deutschland}\\
+\normalsize{Informatik, Bachelor of Science (Hons)} \dates{Oct 2025--Gegenwart}\\
+
+\jobtitle{Gisma Fachhochschule}  \location{Berlin, Deutschland}\\
+\normalsize{Informatik, Bachelor of Science} \dates{Oct 2024--Juni 2025}\\
+\small{Note: 1,5 (Sehr Gut)} 
+
+\is
+\jobtitle{American International School in Egypt -- West }  \location{Kairo, Ägypten}\\
+\normalsize{International Baccalaureate Diploma} \dates{Sep 2010--Juni 2024}\\
+\small{Leistungskurse:
+    \begin{itemize}[leftmargin=3em, label={$\bullet$}, topsep=0pt, partopsep=0pt, parsep=0pt, itemsep=0pt]
+        \item {Informatik}
+        \item {Physik}
+        \item {Mathematik Analysis \& Approaches}
+    \end{itemize}
+}
+\small{Grundkurse:
+    \begin{itemize}[leftmargin=3em, label={$\bullet$}, topsep=0pt, partopsep=0pt, parsep=0pt, itemsep=0pt]
+        \item {Englisch A: Sprache \& Literatur}
+        \item {Französisch ab initio}
+        \item {Betriebswirtschaft}
+    \end{itemize}
+}
+\small{Core:
+    \begin{itemize}[leftmargin=3em, label={$\bullet$}, topsep=0pt, partopsep=0pt, parsep=0pt, itemsep=0pt]
+        \item {Wissenstheorie}
+        \item {Erweiterte Facharbeit in Betriebswirtschaft}
+    \end{itemize}
+} 
+
+%\is
+%\jobtitle{Zewail City of Science and Technology} \location{Cairo, Egypt} \\
+%\normalsize{Summer Program}   \dates{Aug 2022} \\
+%\small{Courses: Environmental Sciences, Mathematics, Physics, Biology, Robotics, Renewable Energy Engineering}
+
+\end{minipage}
+\end{document}
