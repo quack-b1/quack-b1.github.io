@@ -1,5 +1,12 @@
 ## Berufliche Erfahrung
 
+### IT Touchpoint bei European Energy Exchange AG
+Oct 2026 -- Gegenwart,  Werkstudent,  Leipzig, Deutschland
+> - First-line IT-Support für interne Nutzer der EEX AG, der ECC AG und der Deutsche Börse Gruppe
+> - Bereitstellung und Konfiguration von Arbeitsplatzhardware
+> - Verwaltung des IT-Bestands und der Benutzerkonten
+> - Pflege von Verzeichnisdiensten, Berechtigungen und des Zugangs zur Basisinfrastruktur
+
 ### IT-Infrastruktur-Praktikant bei Orascom Development
 Aug 2023, Praktikum, Kairo, Ägypten
 > - Installierte drahtlose Zugangspunkte und VoIP-Leitungen im neuen Sphinx-Büro von OHD

@@ -1,5 +1,13 @@
 ## Career Timeline
 
+### IT Touchpoint at European Energy Exchange AG
+Oct 2026 -- Present,  Working Student,  Leipzig, Germany
+> - First-line IT support for internal users of EEX AG, ECC AG, and the Deutsche Börse Group
+> - Provision and configure workplace hardware
+> - Manage IT asset inventory and user accounts
+> - Maintain directory services, permissions, and basic infrastructure access
+
+
 ### IT Infrastructure Intern at Orascom Development
 Aug 2023,  Internship,  Cairo, Egypt
 > - Installed wireless access points and VoIP lines in OHD’s new Sphinx office
